@@ -1,11 +1,12 @@
-#' A Cat Function
+#' Get Filenames from GitHub Repository
 #'
-#' This function allows you to express your love of cats.
-#' @param love Do you love cats? Defaults to TRUE.
-#' @keywords cats
+#' This function allows to scrape filenames from a GitHub repository.
+#' @param repo A \code{character}. Path to a GitHub repository.
+#' @keywords GitHub filenames
 #' @export
 #' @examples
-#' cat_function()
+#' # get filnames from 'EconometricsWithR/master/data'
+#' get_repo_filenames(repo = "https://github.com/mca91/EconometricsWithR/tree/master/data")
 
 get_repo_filenames <- function(repo) {
   require(rvest)

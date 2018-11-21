@@ -2,17 +2,19 @@
 % Please edit documentation in R/get_repo_filenames.R
 \name{get_repo_filenames}
 \alias{get_repo_filenames}
-\title{A Cat Function}
+\title{Get Filenames from GitHub Repository}
 \usage{
 get_repo_filenames(repo)
 }
 \arguments{
-\item{love}{Do you love cats? Defaults to TRUE.}
+\item{repo}{A \code{character}. Path to a GitHub repository.}
 }
 \description{
-This function allows you to express your love of cats.
+This function allows to scrape filenames from a GitHub repository.
 }
 \examples{
-cat_function()
+# get filnames from 'EconometricsWithR/master/data'
+get_repo_filenames(repo = "https://github.com/mca91/EconometricsWithR/tree/master/data")
 }
-\keyword{cats}
+\keyword{GitHub}
+\keyword{filenames}

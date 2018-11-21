@@ -21,7 +21,7 @@ squeeze_rmds(dir = ".", numbered = T, out = "Rcodes", prefix = "",
 \description{
 This function extracts R code from \code{.Rmd} files belonging to bookdown projects.
 By default, it scans the working directory for \emph{numbered} \code{.Rmd} files and passes them to \code{knitr::purl()} which tangles the code chunks whithin to \code{.R} files.
-It is intended as a convenience function for students working with \emph{Introduction to Econometrics with R}, 
+It is intended as a convenience function for students working with \emph{Introduction to Econometrics with R},
 an interactive online-companion to the textbook \emph{Introduction to Econometrics} (Stock & Watson 2015). The companion can be found \href{https://www.econometrics-with-r.org}{here}. The function works with arbitrary \code{.Rmd} files and is useful for working with other bookdown projects, too.
 }
 \examples{

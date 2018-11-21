@@ -12,7 +12,8 @@ Imports:
   MASS,
   tidyverse,
   quantmod,
-  readxl
+  readxl,
+  rvest
 Suggests: 
     knitr,
     rmarkdown
