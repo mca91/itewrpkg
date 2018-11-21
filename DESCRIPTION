@@ -9,8 +9,10 @@ Depends: R (>= 3.5.1)
 Imports: 
   AER,
   bookdown,
+  MASS,
   tidyverse,
-  quantmod
+  quantmod,
+  readxl
 Suggests: 
     knitr,
     rmarkdown
