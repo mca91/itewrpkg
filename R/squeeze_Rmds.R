@@ -12,8 +12,13 @@
 #' @keywords purl, bookdown
 #' @export
 #' @examples
+#' \dontrun{
 #' # tangle numbered chapters of a bookdown project at working directory
 #' squeeze_rmds(numbered = TRUE, prefix = "Chapter_")
+#' }
+
+## quiets concerns of R CMD check re: the .'s that appear in pipelines
+if(getRversion() >= "2.15.1")  utils::globalVariables(c("."))
 
 squeeze_rmds <- function(dir = ".",
                          numbered = T,

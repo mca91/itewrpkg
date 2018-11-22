@@ -18,7 +18,7 @@ Defaults to \code{"mca91/EconometricsWithR"}.}
 \item{out}{A \code{character} specifying the path to the output directory where the files will be saved. Defaults to the current working directory.}
 }
 \description{
-This function allows to download files from a specific folder located in a repository at GitHub.com. It is intended as a convenience function for students working with \emph{Introduction to Econometrics with R}, 
+This function allows to download files from a specific folder located in a repository at GitHub.com. It is intended as a convenience function for students working with \emph{Introduction to Econometrics with R},
 an interactive online-companion to the textbook \emph{Introduction to Econometrics} (Stock & Watson 2015). The companion can be found \href{https://www.econometrics-with-r.org}{here}. The function works with any GitHub repository.
 }
 \section{References}{

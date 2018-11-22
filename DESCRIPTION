@@ -3,12 +3,14 @@ Title: A metapackage for Introduction to Econometrics with R
 Version: 0.0.0.9000
 Authors@R: person("Martin C.", "Arnold", email = "martin.arnold@vwl.uni-due.de", role = c("aut", "cre"))
 Description: This package is a metapackage for Introduction to Econometrics with R, an interactive online-companion to the textbook Introduction to Econometrics by Stock & Watson (2015). The package contains functions which facilitate replication of the code examples and the book itself.
-Depends: R (>= 3.5.1)
+Depends: R (>= 3.5.0)
 Imports: 
   AER,
   bookdown,
   dynlm,
   fGarch,
+  knitr,
+  magrittr,
   MASS,
   mvtnorm,
   nlme,
@@ -22,9 +24,10 @@ Imports:
   scales,
   stargazer,
   urca,
-  vars
+  vars,
+  xml2
 Suggests: 
-License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+License: CC BY-NC-ND 4.0
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
