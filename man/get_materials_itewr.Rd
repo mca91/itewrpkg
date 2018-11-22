@@ -29,7 +29,7 @@ Stock, J. H. and Watson, M. W. (2015). \emph{Introduction to Econometrics}, Thir
 
 \examples{
 # download materials
-get_materials()
+get_materials_itewr()
 }
 \keyword{download}
 \keyword{supplements}

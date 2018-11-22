@@ -1,0 +1,12 @@
+# generate a BibTeX database automatically for some R packages
+  knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib', width = 500)
+
+# some adjustments
+library(dplyr)
+l <- gsub(pattern = "note = ", replacement = "version = ", x = readLines("packages.bib")) %>% gsub(pattern = "R package version ", replacement = "")
+
+l[grep("title = ", l)] <- gsub("\\{", "\\{\\{", l[grep("title = ", l)]) %>% gsub(pattern = "\\}", replacement = "\\}\\}")
+
+writeLines(l, con = "packages.bib")

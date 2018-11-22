@@ -15,7 +15,7 @@
 #' @export
 #' @examples
 #' # download materials
-#' get_materials()
+#' get_materials_itewr()
 #' @section References:
 #' Stock, J. H. and Watson, M. W. (2015). \emph{Introduction to Econometrics}, Third Update, Global Edition. Pearson Education Limited.
 

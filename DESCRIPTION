@@ -2,21 +2,28 @@ Package: itewrpkg
 Title: A metapackage for Introduction to Econometrics with R 
 Version: 0.0.0.9000
 Authors@R: person("Martin C.", "Arnold", email = "martin.arnold@vwl.uni-due.de", role = c("aut", "cre"))
-Description: This package is a metapackage for Introduction to Econometrics with R, an interactive online-companion to the
-  textbook Introduction to Econometrics by Stock & Watson (2015). The package contains functions which facilitate replication of the
-  code examples and the book itself.
+Description: This package is a metapackage for Introduction to Econometrics with R, an interactive online-companion to the textbook Introduction to Econometrics by Stock & Watson (2015). The package contains functions which facilitate replication of the code examples and the book itself.
 Depends: R (>= 3.5.1)
 Imports: 
   AER,
   bookdown,
+  dynlm,
+  fGarch,
   MASS,
+  mvtnorm,
+  nlme,
   tidyverse,
+  orcutt,
+  plm,
   quantmod,
   readxl,
-  rvest
+  rddtools,
+  rvest,
+  scales,
+  stargazer,
+  urca,
+  vars
 Suggests: 
-    knitr,
-    rmarkdown
 License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 Encoding: UTF-8
 LazyData: true
