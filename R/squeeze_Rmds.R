@@ -1,4 +1,7 @@
-#' A Simple Wrapper for Tangling Bookdown Chapters
+## quiets concerns of R CMD check re: the .'s that appear in pipelines
+if(getRversion() >= "2.15.1")  utils::globalVariables(c("."))
+
+#' A Simple Wrapper for Tangling Code in Bookdown Projects
 #'
 #' This function extracts R code from \code{.Rmd} files belonging to bookdown projects.
 #' By default, it scans the working directory for \emph{numbered} \code{.Rmd} files and passes them to \code{knitr::purl()} which tangles the code chunks whithin to \code{.R} files.
@@ -16,9 +19,6 @@
 #' # tangle numbered chapters of a bookdown project at working directory
 #' squeeze_rmds(numbered = TRUE, prefix = "Chapter_")
 #' }
-
-## quiets concerns of R CMD check re: the .'s that appear in pipelines
-if(getRversion() >= "2.15.1")  utils::globalVariables(c("."))
 
 squeeze_rmds <- function(dir = ".",
                          numbered = T,

@@ -25,6 +25,7 @@ Imports:
   knitr,
   magrittr,
   tidyverse,
+  RCurl,
   rvest,
   xml2
 Suggests: 

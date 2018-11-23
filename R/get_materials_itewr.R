@@ -10,12 +10,13 @@
 #'   \item \code{/ITEWR/Data} (Datasets)
 #'   \item \code{/ITEWR/Rcodes} (R Scripts for each chapter)
 #' }
-#'
 #' @keywords download supplements
 #' @export
 #' @examples
+#' \dontrun{
 #' # download materials
 #' get_materials_itewr()
+#' }
 #' @section References:
 #' Stock, J. H. and Watson, M. W. (2015). \emph{Introduction to Econometrics}, Third Update, Global Edition. Pearson Education Limited.
 
