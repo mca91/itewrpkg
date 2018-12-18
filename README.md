@@ -10,7 +10,7 @@ The book can be found here: [Introduction to Econometrics with R](https://www.ec
 
 The bookdown project is available in [this](https://github.com/mca91/EconometricsWithR) GitHub repository.
 
-#### Installation
+### Installation
 
 It is straightforward to download and install the `itewrpkg` package from GitHub using `install_github()` from the `devtools` package. Run `install.packages("devtools")` if you are not sure whether `devtools` is installed. The following one-liner installs `itewrpkg`:
 
@@ -20,7 +20,7 @@ devtools::install_github("mca91/itewrpkg")
 
 Running the above command will also install all R packages which are required for reproducing the code examples presented throughout the book. Running `library(itewrpkg)` will load the package and all dependencies which makes it unnecessary to individually attach the packages introduced at the beginning of chapter. This may take a few seconds but may be convenient if you are playing around with code chunks from various chapters. 
 
-#### Usage
+### Usage
 
 The function `get_materials_itewr()` is intented as a convenience function for students working with the companion. It downloads up-to-date versions of all supplements to the book such as datasets and R codes from the [GitHub repository](https://github.com/mca91/EconometricsWithR) of the book and saves them to the current working directory (or a location of choice provided to the argument `dir`) according to the following structure:
 
@@ -32,7 +32,7 @@ The function `get_materials_itewr()` is intented as a convenience function for s
 
 You may check your working directory using `getwd()`.
 
-#### Functions
+### Functions
 
 Upon attaching the package using `library(itewrpkg)` the following functions are available:
 
@@ -46,5 +46,5 @@ Upon attaching the package using `library(itewrpkg)` the following functions are
 
 - `squeeze_rmds` a simple wrapper for `knitr::purl()` which tangles R code from chapters in a bookdown projekt to `.R` files
 
-#### References
+### References
 Stock, J., & Watson, M. (2015). *Introduction to Econometrics, Third Update, Global Edition*. Pearson Education Limited.
