@@ -1,8 +1,6 @@
 # 📦itewrpkg 
 
-<img src="https://travis-ci.com/images/logos/TravisCI-Mascot-1.png" alt="drawing" width="50"/>
-
-[![Build Status](https://travis-ci.org/mca91/itewrpkg.svg?branch=master)](https://travis-ci.org/mca91/itewrpkg)
+<img src="https://travis-ci.com/images/logos/TravisCI-Mascot-1.png" alt="drawing" width="40"/> [![Build Status](https://travis-ci.org/mca91/itewrpkg.svg?branch=master)](https://travis-ci.org/mca91/itewrpkg)
 
 A metapackage for the bookdown project <i>Introduction to Econometrics with R</i>, an interactive R companion to the textbook <i>Introduction to Econometrics</i> by Stock &amp; Watson (2015).
 
