@@ -29,11 +29,11 @@ The function `get_materials_itewr()` is intented as a convenience function for s
 
 - `<your_working_directory>/ITEWR/Rmds/` (.Rmd files)
 
-- `<your_working_directory>/ITEWR/Data/` (Datasets)
+- `<your_working_directory>/ITEWR/Data/` (datasets)
 
-- `<your_working_directory>/ITEWR/Rcodes/` (R Scripts, numbered by chapter)
+- `<your_working_directory>/ITEWR/Rcodes/` (R scripts, numbered by chapter)
 
-You may check your working directory using `getwd()`.
+Make sure to check your working directory using `getwd()`.
 
 ### Functions
 
