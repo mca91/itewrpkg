@@ -12,9 +12,12 @@ The bookdown project is available in [this](https://github.com/mca91/Econometric
 
 ### Installation
 
-It is straightforward to download and install the `itewrpkg` package from GitHub using `install_github()` from the `devtools` package. Run `install.packages("devtools")` if you are not sure whether `devtools` is installed. The following one-liner installs `itewrpkg`:
+It is straightforward to download and install the `itewrpkg` package from GitHub using `install_github()` from the `devtools` package. Run `install.packages("devtools")` if you are not sure whether `devtools` is installed. 
+
+The following one-liner installs `itewrpkg`:
 
 ```
+# install `itewrpkg`
 devtools::install_github("mca91/itewrpkg")
 ```
 
