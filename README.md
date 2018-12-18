@@ -1,6 +1,6 @@
 # 📦itewrpkg 
 
-[![TravisCILogo](https://travis-ci.com/images/logos/TravisCI-Mascot-1.png =50x)](https://travis-ci.org/)
+[![TravisCILogo](https://travis-ci.com/images/logos/TravisCI-Mascot-1.png)=50x](https://travis-ci.org/)
 
 [![Build Status](https://travis-ci.org/mca91/itewrpkg.svg?branch=master)](https://travis-ci.org/mca91/itewrpkg)
 
