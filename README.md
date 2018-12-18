@@ -4,7 +4,7 @@
 
 A metapackage for the bookdown project <i>Introduction to Econometrics with R</i>, an interactive R companion to the textbook <i>Introduction to Econometrics</i> by Stock &amp; Watson (2015)
 
-<p align="center"><img align="center" src="https://github.com/mca91/EconometricsWithR/blob/master/docs/images/cover.png" width="26%" height="26%"></p>
+<p align="center"><img align="center" src="https://github.com/mca91/EconometricsWithR/blob/master/docs/images/cover.png" width="28%" height="28%"></p>
 
 The book can be found here: [Introduction to Econometrics with R](https://www.econometrics-with-r.org/)
 
@@ -20,13 +20,25 @@ devtools::install_github("mca91/itewrpkg")
 
 Running the above command will also install all R packages which are required for reproducing the code examples presented throughout the book. Running `library(itewrpkg)` will load the package and all dependencies which makes it unnecessary to individually attach the packages introduced at the beginning of chapter. This may take a few seconds but may be convenient if you are playing around with code chunks from various chapters. 
 
+#### Usage
+
+The function `get_materials_itewr()` is intented as a convenience function for students working with the companion. It downloads up-to-date versions of all supplements to the book such as datasets and R codes from the [GitHub repository](https://github.com/mca91/EconometricsWithR) of the book and saves them to the current working directory (or a location of choice provided to the argument `dir`) according to the following structure:
+
+- `<your_working_directory>/ITEWR/Rmds/` (.Rmd files)
+
+- `<your_working_directory>/ITEWR/Data/` (Datasets)
+
+- `<your_working_directory>/ITEWR/Rcodes/` (R Scripts, numbered by chapter)
+
+You may check your working directory using `getwd()`.
+
 #### Functions
 
 Upon attaching the package using `library(itewrpkg)` the following functions are available:
 
 - `get_materials_itewr()` downloads all the materials neccessary to reproduce R examples from the book
 
-_ `get_repo()` can be used to download an entire GitHub repository
+- `get_repo()` can be used to download an entire GitHub repository
 
 - `get_repo_filenames()` scrapes file names from a GitHub repository
 
