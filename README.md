@@ -4,6 +4,8 @@
 
 [![Build Status](https://travis-ci.org/mca91/itewrpkg.svg?branch=master)](https://travis-ci.org/mca91/itewrpkg)
 
+---
+
 A metapackage for the bookdown project <i>Introduction to Econometrics with R</i>, an interactive R companion to the textbook <i>Introduction to Econometrics</i> by Stock &amp; Watson (2015).
 
 <p align="center"><img align="center" src="https://github.com/mca91/EconometricsWithR/blob/master/docs/images/cover.png" width="29%" height="29%"></p>
