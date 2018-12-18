@@ -4,7 +4,7 @@
 
 A metapackage for the bookdown project <i>Introduction to Econometrics with R</i>, an interactive R companion to the textbook <i>Introduction to Econometrics</i> by Stock &amp; Watson (2015)
 
-<p align="center"><img align="center" src="https://github.com/mca91/EconometricsWithR/blob/master/docs/images/cover.png" width="28%" height="28%"></p>
+<p align="center"><img align="center" src="https://github.com/mca91/EconometricsWithR/blob/master/docs/images/cover.png" width="29%" height="29%"></p>
 
 The book can be found [here](https://www.econometrics-with-r.org/).
 
@@ -39,7 +39,7 @@ You may check your working directory using `getwd()`.
 
 Upon attaching the package using `library(itewrpkg)` the following functions are available:
 
-- `get_materials_itewr()` downloads all the materials neccessary to reproduce R examples from the book
+- `get_materials_itewr()` downloads all the materials neccessary to reproduce R examples from the book (see above)
 
 - `get_repo()` can be used to download an entire GitHub repository
 
