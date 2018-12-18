@@ -6,7 +6,7 @@ A metapackage for the bookdown project <i>Introduction to Econometrics with R</i
 
 <p align="center"><img align="center" src="https://github.com/mca91/EconometricsWithR/blob/master/docs/images/cover.png" width="28%" height="28%"></p>
 
-The book can be found here: [Introduction to Econometrics with R](https://www.econometrics-with-r.org/)
+The book can be found [here](https://www.econometrics-with-r.org/).
 
 The bookdown project is available in [this](https://github.com/mca91/EconometricsWithR) GitHub repository.
 
