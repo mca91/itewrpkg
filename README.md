@@ -44,13 +44,13 @@ Upon attaching the package using `library(itewrpkg)` the following functions are
 
 - `get_materials_itewr()` downloads all the materials neccessary to reproduce R examples from the book (see above)
 
-- `get_repo()` can be used to download an entire GitHub repository
+- `get_repo()` downloads an entire GitHub repository
 
 - `get_repo_filenames()` scrapes file names from a GitHub repository
 
-- `get_repo_files()` get all files from a specific folder in a GitHub repository
+- `get_repo_files()` gets all files from a specific folder in a GitHub repository
 
-- `squeeze_rmds` a simple wrapper for `knitr::purl()` which tangles R code from chapters in a bookdown projekt to `.R` files
+- `squeeze_rmds` is a simple wrapper for `knitr::purl()` which tangles R code from chapters in a bookdown projekt to `.R` files
 
 ### References
 Stock, J., & Watson, M. (2015). *Introduction to Econometrics, Third Update, Global Edition*. Pearson Education Limited.
