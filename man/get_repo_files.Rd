@@ -4,8 +4,12 @@
 \alias{get_repo_files}
 \title{Download Files From GitHub Repository}
 \usage{
-get_repo_files(repo = "mca91/EconometricsWithR", folder = "master",
-  type = "any", out = ".")
+get_repo_files(
+  repo = "mca91/EconometricsWithR",
+  folder = "master",
+  type = "any",
+  out = "."
+)
 }
 \arguments{
 \item{repo}{\code{character} A GitHub repository. Must be specified in the form \code{"username/repository"}.
@@ -19,7 +23,7 @@ Defaults to \code{"mca91/EconometricsWithR"}.}
 }
 \description{
 This function allows to download files from a specific folder located in a repository at GitHub.com. It is intended as a convenience function for students working with \emph{Introduction to Econometrics with R},
-an interactive online-companion to the textbook \emph{Introduction to Econometrics} (Stock & Watson 2015). The companion can be found \href{https://www.econometrics-with-r.org}{here}. The function works with any GitHub repository.
+an interactive online-companion to the textbook \emph{Introduction to Econometrics} (Stock & Watson 2015), but works with any public GitHub repository. The online-companion can be found \href{https://www.econometrics-with-r.org}{here}.
 }
 \section{References}{
 

@@ -11,8 +11,6 @@
 
 get_repo_filenames <- function(repo) {
   xml2::read_html(repo) %>%
-    rvest::html_nodes(css = ".files") %>%
-    rvest::html_table() %>%
-    .[[1]] %>%
-    .[-(1:2), 2]
+    rvest::html_nodes(css = ".js-navigation-open.link-gray-dark") %>%
+    rvest::html_attr("title")
 }

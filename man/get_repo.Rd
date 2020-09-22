@@ -7,7 +7,7 @@
 get_repo(repo = NULL, out = ".")
 }
 \arguments{
-\item{repo}{\code{character} string. Name of the GitHub repository to be
+\item{repo}{A \code{character} string stating the name of the GitHub repository to be
 downloaded. Must be specified in the form \code{"username/repository"}.}
 
 \item{out}{A \code{character} string specifying the path to the output
@@ -15,15 +15,15 @@ directory where the repository files will be saved. Defaults to the current
 working directory.}
 }
 \description{
-This function allows to download a whole repository at GitHub.com. It is
+This function allows to download a whole repository from GitHub.com. It is
 intended as a convenience function for students working with
 \emph{Introduction to Econometrics with R}, an interactive online-companion
-to the textbook \emph{Introduction to Econometrics} (Stock & Watson 2015).
+to the textbook \emph{Introduction to Econometrics} (Stock & Watson 2015), but works with any public GitHub repository.
 The companion can be found \href{https://www.econometrics-with-r.org}{here}.
 }
 \details{
 The function downloads the zipped contents (\code{master.zip}) of
-  the master branch of the GitHub repository supplied to the argument
+  the master branch from the GitHub repository supplied to the argument
   \code{repo} to the directory specified in \code{out} and unzips the archive
   afterwards in \code{<out>/Repository/}.
 }

@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: person("Martin C.", "Arnold", email = "martin.arnold@vwl.uni-due.de", role = c("aut", "cre"))
 Description: A metapackage for Introduction to Econometrics with R, an interactive online-companion to the textbook Introduction to Econometrics by Stock & Watson (2015). The package contains functions which facilitate replication of the code examples and the book itself.
 Depends: 
-  R (>= 4.0.2),
+  R (>= 4.0.0),
   AER,
   bookdown,
   dynlm,
@@ -32,4 +32,4 @@ Suggests:
 License: CC BY-NC-ND 4.0
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.1
