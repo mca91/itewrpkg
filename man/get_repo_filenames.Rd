@@ -7,13 +7,13 @@
 get_repo_filenames(repo)
 }
 \arguments{
-\item{repo}{A \code{character}. Path to a GitHub repository.}
+\item{repo}{A \code{character}. Path to a GitHub repository tree URL.}
 }
 \description{
-This function allows to scrape filenames from a GitHub repository.
+This function allows to retrieve filenames from a GitHub repository using the GitHub Contents API.
 }
 \examples{
-# get filnames from 'EconometricsWithR/master/data'
+# get filenames from 'EconometricsWithR/master/data'
 get_repo_filenames(repo = "https://github.com/mca91/EconometricsWithR/tree/master/data")
 }
 \keyword{GitHub}

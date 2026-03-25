@@ -35,7 +35,7 @@ get_repo_files <- function(repo = "mca91/EconometricsWithR",
   }
 
   # download files
-  if(!is.null(filenames)) {
+  if(length(filenames) > 0) {
     cat("The following files were found:\n",
         paste(filenames, collapse = "\n"), " ", paste("Downloading to", out, "\n"), "This might take a few seconds...", "", sep = "\n")
 
